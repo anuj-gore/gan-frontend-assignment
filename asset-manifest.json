@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/gan-frontend-assignment/static/css/main.db5724ea.css",
-    "main.js": "/gan-frontend-assignment/static/js/main.42abdb4f.js",
+    "main.js": "/gan-frontend-assignment/static/js/main.817d549a.js",
     "static/media/7.png": "/gan-frontend-assignment/static/media/7.cedf72f064210765daf6.png",
     "static/media/1.png": "/gan-frontend-assignment/static/media/1.fb2c91f2a1313618a1ca.png",
     "static/media/2.png": "/gan-frontend-assignment/static/media/2.52cfbdfe6abd51f15d3b.png",
@@ -14,10 +14,10 @@
     "static/media/3.png": "/gan-frontend-assignment/static/media/3.51195d5bf3ad02aeb1ee.png",
     "index.html": "/gan-frontend-assignment/index.html",
     "main.db5724ea.css.map": "/gan-frontend-assignment/static/css/main.db5724ea.css.map",
-    "main.42abdb4f.js.map": "/gan-frontend-assignment/static/js/main.42abdb4f.js.map"
+    "main.817d549a.js.map": "/gan-frontend-assignment/static/js/main.817d549a.js.map"
   },
   "entrypoints": [
     "static/css/main.db5724ea.css",
-    "static/js/main.42abdb4f.js"
+    "static/js/main.817d549a.js"
   ]
 }
