@@ -6,6 +6,10 @@ import prod5 from "../static/products/5.png";
 import prod6 from "../static/products/6.png";
 import prod7 from "../static/products/7.png";
 import prod8 from "../static/products/8.png";
+import flour from "../static/flour.png";
+import love from "../static/love.png";
+import clock from "../static/clock.png";
+
 export const PRODUCTS = [
   {
     id: 1,
@@ -66,5 +70,26 @@ export const PRODUCTS = [
     productDesc:
       "This delicious French breakfast pastry is best enjoyed warm, with coffee or tea.",
     price: 95,
+  },
+];
+
+export const VALUES = [
+  {
+    id: 1,
+    image: love,
+    title: "BAKED WITH LOVE",
+    desc: "Our passion for baking is poured into every recipe",
+  },
+  {
+    id: 2,
+    image: flour,
+    title: "AUTHENTIC RECIPES",
+    desc: "Our products are based on traditional home-style recipes",
+  },
+  {
+    id: 3,
+    image: clock,
+    title: "COMMITTED TO QUALITY",
+    desc: "Our products are freshly baked every day",
   },
 ];

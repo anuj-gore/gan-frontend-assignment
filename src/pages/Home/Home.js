@@ -5,6 +5,7 @@ import clock from "../../static/clock.png";
 import "./Home.css";
 import Value from "../../components/Value/Value";
 import { Link } from "react-router-dom";
+import { VALUES } from "../../util/constants";
 const Home = () => {
   return (
     <>
@@ -28,26 +29,13 @@ const Home = () => {
             <div className="title">Our Values</div>
             <hr />
             <div className="values-list">
-              <Value
-                image={love}
-                title={"BAKED WITH LOVE"}
-                desc={"Our passion for baking is poured into every recipe"}
-                className="value"
-              />
-              <Value
-                image={flour}
-                title={"AUTHENTIC RECIPES"}
-                desc={
-                  "Our products are based on traditional home-style recipes"
-                }
-                className="value"
-              />
-              <Value
-                image={clock}
-                title={"COMMITTED TO QUALITY"}
-                desc={"Our products are freshly baked every day"}
-                className="value"
-              />
+              {VALUES.map((value) => (
+                <Value
+                  image={value.image}
+                  title={value.title}
+                  desc={value.desc}
+                />
+              ))}
             </div>
           </div>
         </div>

@@ -27,7 +27,7 @@ const Footer = () => {
         <span className="contact-text">We take event orders!</span>
         <div className="contact-number">
           <BsWhatsapp />
-          +91 88790 83370
+          +91 99999 99999
         </div>
       </div>
     </div>
