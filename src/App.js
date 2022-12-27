@@ -2,7 +2,7 @@ import "./App.css";
 import Home from "./pages/Home/Home";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Products from "./pages/Products/Products";
 import NoMatch from "./pages/NoMatch/NoMatch";
 import Cart from "./pages/Cart/Cart";
