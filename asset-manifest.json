@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.db5724ea.css",
-    "main.js": "/static/js/main.d1828ed8.js",
-    "static/media/7.png": "/static/media/7.cedf72f064210765daf6.png",
-    "static/media/1.png": "/static/media/1.fb2c91f2a1313618a1ca.png",
-    "static/media/2.png": "/static/media/2.52cfbdfe6abd51f15d3b.png",
-    "static/media/flour.png": "/static/media/flour.367b7cc03567f5c01a60.png",
-    "static/media/4.png": "/static/media/4.b06d980282002581d329.png",
-    "static/media/8.png": "/static/media/8.ed5f9bc8fe3ee5afe89c.png",
-    "static/media/6.png": "/static/media/6.df7eaec88dd9fcac5327.png",
-    "static/media/5.png": "/static/media/5.e372a99435367cdf71b2.png",
-    "static/media/clock.png": "/static/media/clock.5e5de4d3581dec3e0f80.png",
-    "static/media/3.png": "/static/media/3.51195d5bf3ad02aeb1ee.png",
-    "index.html": "/index.html",
-    "main.db5724ea.css.map": "/static/css/main.db5724ea.css.map",
-    "main.d1828ed8.js.map": "/static/js/main.d1828ed8.js.map"
+    "main.css": "/gan-frontend-assignment/static/css/main.db5724ea.css",
+    "main.js": "/gan-frontend-assignment/static/js/main.42abdb4f.js",
+    "static/media/7.png": "/gan-frontend-assignment/static/media/7.cedf72f064210765daf6.png",
+    "static/media/1.png": "/gan-frontend-assignment/static/media/1.fb2c91f2a1313618a1ca.png",
+    "static/media/2.png": "/gan-frontend-assignment/static/media/2.52cfbdfe6abd51f15d3b.png",
+    "static/media/flour.png": "/gan-frontend-assignment/static/media/flour.367b7cc03567f5c01a60.png",
+    "static/media/4.png": "/gan-frontend-assignment/static/media/4.b06d980282002581d329.png",
+    "static/media/8.png": "/gan-frontend-assignment/static/media/8.ed5f9bc8fe3ee5afe89c.png",
+    "static/media/6.png": "/gan-frontend-assignment/static/media/6.df7eaec88dd9fcac5327.png",
+    "static/media/5.png": "/gan-frontend-assignment/static/media/5.e372a99435367cdf71b2.png",
+    "static/media/clock.png": "/gan-frontend-assignment/static/media/clock.5e5de4d3581dec3e0f80.png",
+    "static/media/3.png": "/gan-frontend-assignment/static/media/3.51195d5bf3ad02aeb1ee.png",
+    "index.html": "/gan-frontend-assignment/index.html",
+    "main.db5724ea.css.map": "/gan-frontend-assignment/static/css/main.db5724ea.css.map",
+    "main.42abdb4f.js.map": "/gan-frontend-assignment/static/js/main.42abdb4f.js.map"
   },
   "entrypoints": [
     "static/css/main.db5724ea.css",
-    "static/js/main.d1828ed8.js"
+    "static/js/main.42abdb4f.js"
   ]
 }
