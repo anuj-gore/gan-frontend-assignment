@@ -1,0 +1,37 @@
+.cart-container {
+  margin: 30px 20%;
+  text-align: center;
+}
+.cart-items {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+}
+.checkout-button {
+  background-color: white;
+  padding: 10px;
+  border: 2px solid black;
+  width: 100px;
+}
+.checkout-button:hover {
+  transition: ease-in;
+  transition-delay: 250ms;
+  background-color: rgb(255, 213, 247);
+}
+.checkout-link {
+  text-decoration: none;
+  color: black;
+  width: 100px;
+  cursor: default;
+}
+
+.checkout-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+@media (max-width: 610px) {
+  .cart-container {
+    margin: 30px 10%;
+  }
+}

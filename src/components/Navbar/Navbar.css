@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat&display=swap");
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 0 6rem;
+}
+.nav-brand {
+  color: white;
+  font-size: 2.5rem;
+  text-decoration: none;
+  align-items: center;
+  display: flex;
+  padding: 1rem 0;
+}
+.logo {
+  font-size: 3rem;
+  margin-right: 0.5rem;
+}
+.nav-menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 2rem;
+}
+.nav-links {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-toggle {
+  display: none;
+}
+.navbar-container #hidden {
+  display: flex;
+}
+@media (max-width: 1024px) {
+  .navbar-container {
+    padding: 0 4rem;
+  }
+  .nav-brand {
+    font-size: 2rem;
+  }
+  .logo {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 830px) {
+  .navbar-container {
+    padding: 0 2rem;
+  }
+  .nav-brand {
+    font-size: 1.5rem;
+  }
+  .logo {
+    font-size: 2rem;
+  }
+  .nav-links {
+    font-size: 0.9rem;
+  }
+  .nav-menu {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 610px) {
+  .nav-menu {
+    display: none;
+    gap: 0px;
+    align-items: center;
+  }
+  .nav-toggle {
+    font-size: 1.5rem;
+    display: flex;
+    border: 2px solid white;
+    border-radius: 5px;
+  }
+  .navbar-container #hidden {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    right: 0;
+    top: 3.8rem;
+    background-color: black;
+  }
+  .nav-item {
+    width: auto;
+    margin-bottom: 10px;
+  }
+  .nav-links {
+    color: white;
+  }
+}
+
+@media (max-width: 425px) {
+  .navbar-container {
+    padding: 0 1.5rem;
+  }
+  .nav-toggle {
+    padding: 2px;
+    font-size: 1rem;
+  }
+  .nav-brand {
+    font-size: 1.2rem;
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+  .navbar-container #hidden {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 3.4rem;
+    background-color: black;
+  }
+  .nav-item {
+    width: auto;
+  }
+  .nav-links {
+    color: white;
+  }
+}

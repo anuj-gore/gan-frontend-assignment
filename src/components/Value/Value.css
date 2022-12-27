@@ -1,0 +1,16 @@
+.value-container {
+  display: flex;
+}
+.value-text {
+  flex-grow: 1;
+  font-size: 0.8rem;
+}
+.value-title {
+  font-weight: bold;
+}
+
+@media (max-width: 830px) {
+  .value-text {
+    font-size: 0.7rem;
+  }
+}
